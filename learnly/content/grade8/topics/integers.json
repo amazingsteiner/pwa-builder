@@ -1,0 +1,62 @@
+{
+  "id": "integers",
+  "name": "Integers",
+  "what_is_it": "Integers are whole numbers that can be positive, negative, or zero: ... -3, -2, -1, 0, 1, 2, 3 ... Grade 8 focuses on the four operations with integers and applying the correct order of operations.",
+  "why_it_matters": "Integers describe real situations: temperature below zero, bank overdrafts, altitude below sea level, and are essential for algebra where letters can represent negative values.",
+  "key_vocabulary": [
+    "Integer — a positive or negative whole number, or zero",
+    "Absolute value — the distance of a number from zero, always positive, written |x|",
+    "Additive inverse — a number and its opposite add to zero, e.g. 5 and -5"
+  ],
+  "core_concept": "Adding a negative number is the same as subtracting; subtracting a negative number is the same as adding. Multiplying or dividing two numbers with the same sign gives a positive result; different signs give a negative result.",
+  "rules": [
+    "(+) + (+) = add and keep positive",
+    "(−) + (−) = add and keep negative",
+    "(+) + (−): subtract the smaller absolute value from the larger, keep the sign of the bigger number",
+    "(−) × (−) = (+)   and   (+) × (+) = (+)",
+    "(−) × (+) = (−)   and   (+) × (−) = (−)",
+    "Same rules apply to division as multiplication"
+  ],
+  "formulae": [
+    "a − b = a + (−b)",
+    "|x| ≥ 0 for all integers x"
+  ],
+  "step_by_step_method": [
+    "STEP 1: Identify each number's sign.",
+    "STEP 2: Rewrite subtraction of a negative as addition (change two signs to a plus).",
+    "STEP 3: Apply BODMAS if there are brackets or multiple operations.",
+    "STEP 4: For multiplication/division, count the negative signs — an even number of negatives gives a positive answer, odd gives negative."
+  ],
+  "worked_example_1": {
+    "question": "Calculate: −8 − (−3) + 5",
+    "solution": "−8 − (−3) = −8 + 3 = −5\n−5 + 5 = 0"
+  },
+  "worked_example_2": {
+    "question": "Calculate: (−4) × (−6) ÷ (−2)",
+    "solution": "(−4) × (−6) = 24 (two negatives)\n24 ÷ (−2) = −12 (one negative left)"
+  },
+  "fast_method": "Count the total number of negative signs in a multiplication/division chain: even count → positive answer, odd count → negative answer. No need to work sign-by-sign.",
+  "why_fast_method_works": "Each pair of negative signs cancels out (like flipping a switch twice returns it to the same state), so only the leftover, unpaired negative sign affects the final answer.",
+  "common_mistakes": [
+    "Forgetting to flip the sign when subtracting a negative number.",
+    "Assuming a negative number squared is negative — it's actually positive: (−3)² = 9.",
+    "Losing track of signs in long chains of operations.",
+    "Confusing −3² (= −9, only 3 is squared) with (−3)² (= 9, the whole thing is squared)."
+  ],
+  "memory_trick": "\"Two negatives make a positive, like a double negative in English: 'I don't have no money' really means you DO have money.\"",
+  "visual_explanation": "A number line: moving right = adding a positive; moving left = adding a negative. Learnly can draw a number line and animate the jumps for a given calculation.",
+  "guided_example": "Calculate: 7 + (−12) − (−4)\n1) 7 + (−12) = 7 − 12 = −5\n2) −5 − (−4) = −5 + 4 = −1\nAnswer: −1",
+  "practice_questions": [
+    "Calculate: −15 + 9",
+    "Calculate: 6 − (−8)",
+    "Calculate: (−5) × 4",
+    "Calculate: (−36) ÷ (−9)"
+  ],
+  "challenge_question": "The temperature at midnight was −4°C. It rose by 3°C every hour for 5 hours, then dropped by 9°C. What was the final temperature?",
+  "quick_test": [
+    "(−3) + (−7) = ? (−10)",
+    "(−2)³ = ? (−8)",
+    "|−9| = ? (9)"
+  ],
+  "mastery_check": "Mastered when a student can correctly evaluate mixed-operation integer expressions, explain why two negatives multiply to a positive, and use a number line to justify addition/subtraction of integers."
+}

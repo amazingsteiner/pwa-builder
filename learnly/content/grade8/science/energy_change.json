@@ -1,0 +1,44 @@
+{
+  "id": "energy_change",
+  "name": "Energy and Change",
+  "diagram": "simple_circuit",
+  "what_is_it": "Energy and Change studies different forms of energy, how energy transfers and transforms from one form to another, and how electric circuits work.",
+  "why_it_matters": "Every device you use — a phone, a kettle, a light bulb — relies on energy transformation and electric circuits. Understanding this helps explain how electricity is generated, distributed, and used safely.",
+  "key_vocabulary": [
+    "Energy — the ability to do work or cause change; it cannot be created or destroyed, only transformed",
+    "Kinetic energy — the energy of motion",
+    "Potential energy — stored energy due to position or condition (e.g. a stretched spring, water behind a dam)",
+    "Electric circuit — a closed loop through which electric current can flow",
+    "Current — the flow of electric charge through a conductor",
+    "Conductor — a material that allows electric current to flow easily (e.g. copper)",
+    "Insulator — a material that does not allow electric current to flow easily (e.g. rubber, plastic)",
+    "Series circuit — a circuit with only one path for current to flow",
+    "Parallel circuit — a circuit with more than one path for current to flow"
+  ],
+  "core_concept": "Energy is never lost — it just changes form (this is the Law of Conservation of Energy). In a circuit, a power source (like a battery) pushes electric charge around a closed loop, and that electrical energy transforms into other forms (light, heat, sound, movement) at each component.",
+  "key_facts": [
+    "A complete, unbroken circuit is required for current to flow — any break stops the whole circuit.",
+    "In a series circuit, if one component fails, the whole circuit stops working because there's only one path.",
+    "In a parallel circuit, other branches keep working even if one branch fails, because current has alternative paths.",
+    "A battery converts stored chemical energy into electrical energy.",
+    "A light bulb converts electrical energy into light energy AND heat energy (some energy is always 'lost' as heat)."
+  ],
+  "common_misconceptions": [
+    "Thinking a battery 'stores electricity' — it actually stores chemical energy that gets converted to electrical energy when connected.",
+    "Believing current is 'used up' as it flows around a circuit — the same current flows throughout a series circuit; energy is transferred, not the current itself consumed.",
+    "Assuming energy can be 'lost' completely — it's always transformed into another form (often heat), never destroyed.",
+    "Confusing series and parallel circuits — remember: series = one path, parallel = multiple paths."
+  ],
+  "quiz_facts": [
+    {"q": "What law says energy cannot be created or destroyed?", "a": "Law of Conservation of Energy"},
+    {"q": "What is the energy of motion called?", "a": "Kinetic energy"},
+    {"q": "What type of circuit has only one path for current?", "a": "Series circuit"},
+    {"q": "What device converts chemical energy into electrical energy?", "a": "A battery"},
+    {"q": "What material does NOT allow current to flow easily?", "a": "An insulator"}
+  ],
+  "quick_test": [
+    "Give an example of potential energy becoming kinetic energy.",
+    "Explain why one broken bulb stops a whole series circuit.",
+    "Name two forms of energy a light bulb produces."
+  ]
+}

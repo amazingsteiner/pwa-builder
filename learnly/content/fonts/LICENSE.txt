@@ -1,0 +1,9 @@
+DejaVu Sans / DejaVu Sans Bold
+Bundled so Pillow-based paper generation always has a working font,
+regardless of what fonts (if any) exist on the target device.
+
+Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.
+DejaVu changes are in the public domain.
+Licensed under the Bitstream Vera license - free to use, copy, merge,
+publish, distribute, and/or bundle with software. See:
+https://dejavu-fonts.github.io/License.html

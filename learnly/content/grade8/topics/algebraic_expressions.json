@@ -1,0 +1,63 @@
+{
+  "id": "algebraic_expressions",
+  "name": "Algebraic Expressions",
+  "what_is_it": "An algebraic expression uses letters (variables) to represent unknown or changing numbers, combined with numbers and operations. Grade 8 focuses on simplifying expressions by collecting like terms, and substitution (replacing letters with given numbers).",
+  "why_it_matters": "Algebra generalises arithmetic — instead of solving one specific number problem, an expression describes a whole family of situations at once. It's the language used in nearly every other maths and science topic from here on.",
+  "key_vocabulary": [
+    "Variable — a letter representing an unknown or changing value, e.g. x",
+    "Coefficient — the number multiplying a variable, e.g. 5 in 5x",
+    "Term — a single part of an expression separated by + or −, e.g. 3x, −2y, 7",
+    "Like terms — terms with exactly the same variable(s) and exponent, e.g. 3x and −5x",
+    "Constant — a term with no variable, just a number"
+  ],
+  "core_concept": "Only LIKE terms can be added or subtracted together. Simplifying means collecting like terms into a single term. Substitution means replacing each variable with a given numeric value and then calculating.",
+  "rules": [
+    "Only combine terms with identical variables and identical exponents.",
+    "Keep the sign attached to each term when rearranging.",
+    "Multiply coefficients and add exponents of the same base when multiplying terms: 2x × 3x = 6x².",
+    "When substituting negative numbers, always use brackets to avoid sign errors."
+  ],
+  "formulae": [
+    "Distributive law: a(b + c) = ab + ac",
+    "Like terms: axⁿ + bxⁿ = (a+b)xⁿ"
+  ],
+  "step_by_step_method": [
+    "STEP 1: Identify all the terms in the expression.",
+    "STEP 2: Group terms that have exactly the same variable and exponent.",
+    "STEP 3: Add/subtract the coefficients of each like-term group.",
+    "STEP 4: Write the simplified expression, usually from highest to lowest power.",
+    "STEP 5 (substitution): Replace each variable with its given value in brackets, then calculate using BODMAS."
+  ],
+  "worked_example_1": {
+    "question": "Simplify: 4x + 3y − 2x + 7y",
+    "solution": "Group like terms: (4x − 2x) + (3y + 7y)\n= 2x + 10y"
+  },
+  "worked_example_2": {
+    "question": "If x = −3, evaluate 2x² − 5x + 1",
+    "solution": "2(−3)² − 5(−3) + 1\n= 2(9) + 15 + 1\n= 18 + 15 + 1 = 34"
+  },
+  "fast_method": "Underline or colour-code each family of like terms before combining — this stops you from accidentally mixing x-terms with x²-terms or y-terms.",
+  "why_fast_method_works": "Like terms represent the same 'kind' of quantity (just like you can't add 3 apples and 2 oranges to get 5 apple-oranges) — visually grouping them prevents combining unrelated quantities.",
+  "common_mistakes": [
+    "Adding x and x² together as if they were like terms.",
+    "Forgetting brackets when substituting negative numbers, causing sign errors.",
+    "Dropping a negative sign when rearranging terms.",
+    "Multiplying coefficients incorrectly when the expression has more than two terms."
+  ],
+  "memory_trick": "\"Same letter, same power, same family — only family members can be added together.\"",
+  "visual_explanation": "Colour-grouping diagram: all x-terms in blue, all y-terms in green, constants in grey, so learners can visually collect each colour group.",
+  "guided_example": "Simplify: 5a − 3b + 2a + b − 4\n1) Group a-terms: 5a + 2a = 7a\n2) Group b-terms: −3b + b = −2b\n3) Constant: −4\nAnswer: 7a − 2b − 4",
+  "practice_questions": [
+    "Simplify: 6x + 2x − 4",
+    "Simplify: 3a + 5b − a + 2b",
+    "If x = 4, evaluate 3x + 7",
+    "If a = −2, evaluate a² + 3a"
+  ],
+  "challenge_question": "Simplify fully: 3(2x + 5) − 2(x − 4), then evaluate the result when x = 3.",
+  "quick_test": [
+    "Are 4x and 4x² like terms? (No)",
+    "Simplify 7y − 3y (4y)",
+    "If x=2, evaluate 5x−3 (7)"
+  ],
+  "mastery_check": "Mastered when a student reliably identifies like terms in mixed expressions, simplifies without sign errors, and substitutes negative values correctly using brackets."
+}

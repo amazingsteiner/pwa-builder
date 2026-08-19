@@ -1,0 +1,65 @@
+{
+  "id": "exponents",
+  "name": "Exponents",
+  "what_is_it": "An exponent (or power/index) shows how many times a base number is multiplied by itself. In aⁿ, 'a' is the base and 'n' is the exponent. Grade 8 covers the exponent laws, squares and cubes, and an introduction to zero/negative exponents.",
+  "why_it_matters": "Exponents let us write very large or very small repeated products compactly, and they underpin scientific notation, compound growth, area/volume formulae, and algebra in later grades.",
+  "key_vocabulary": [
+    "Base — the number being multiplied repeatedly",
+    "Exponent/Power/Index — how many times the base is multiplied by itself",
+    "Square number — a number multiplied by itself once, e.g. 5² = 25",
+    "Cube number — a number multiplied by itself twice, e.g. 4³ = 64"
+  ],
+  "core_concept": "aⁿ = a × a × a ... (n times). Exponent laws let us simplify expressions without expanding every multiplication.",
+  "rules": [
+    "Same base multiplication: aᵐ × aⁿ = aᵐ⁺ⁿ",
+    "Same base division: aᵐ ÷ aⁿ = aᵐ⁻ⁿ",
+    "Power of a power: (aᵐ)ⁿ = aᵐˣⁿ",
+    "Zero exponent: a⁰ = 1 (a ≠ 0)",
+    "Negative exponent: a⁻ⁿ = 1/aⁿ",
+    "Power of a product: (ab)ⁿ = aⁿbⁿ"
+  ],
+  "formulae": [
+    "aᵐ × aⁿ = aᵐ⁺ⁿ",
+    "aᵐ ÷ aⁿ = aᵐ⁻ⁿ",
+    "(aᵐ)ⁿ = aᵐⁿ",
+    "a⁰ = 1"
+  ],
+  "step_by_step_method": [
+    "STEP 1: Check whether the bases are the same — laws only apply directly to matching bases.",
+    "STEP 2: Identify the operation (multiply, divide, or a power of a power).",
+    "STEP 3: Apply the matching exponent law to combine the exponents.",
+    "STEP 4: Simplify the final exponent; evaluate the number if required."
+  ],
+  "worked_example_1": {
+    "question": "Simplify: 3⁴ × 3²",
+    "solution": "Same base (3), so add exponents:\n3⁴ × 3² = 3⁴⁺² = 3⁶ = 729"
+  },
+  "worked_example_2": {
+    "question": "Simplify: (2³)²  and  5⁷ ÷ 5⁴",
+    "solution": "(2³)² = 2³ˣ² = 2⁶ = 64\n5⁷ ÷ 5⁴ = 5⁷⁻⁴ = 5³ = 125"
+  },
+  "fast_method": "When you see the SAME base being multiplied or divided, ignore the base and just add or subtract the exponents. Don't expand the whole multiplication.",
+  "why_fast_method_works": "Multiplying powers of the same base is just stacking more copies of the base together — the total count of factors is the sum of the individual counts, which is exactly the exponent rule.",
+  "common_mistakes": [
+    "Adding exponents when bases are different (e.g. 2³ × 3² ≠ 6⁵).",
+    "Multiplying the base by the exponent instead of applying the power (2³ ≠ 2×3).",
+    "Forgetting a⁰ = 1 for any non-zero base, not 0.",
+    "Mixing up (aᵐ)ⁿ (multiply exponents) with aᵐ × aⁿ (add exponents)."
+  ],
+  "memory_trick": "\"Multiply → ADD. Divide → SUBTRACT. Power of a power → MULTIPLY.\" (Same operation family stays consistent: × goes with +, ÷ goes with −.)",
+  "visual_explanation": "A repeated-multiplication chain diagram: 3⁴ shown as 3×3×3×3, next to 3² as 3×3, combined into one chain of six 3's to visually prove 3⁶.",
+  "guided_example": "Simplify: (2² × 2³) ÷ 2⁴\n1) Combine the top: 2² × 2³ = 2⁵\n2) Divide: 2⁵ ÷ 2⁴ = 2¹ = 2",
+  "practice_questions": [
+    "Simplify: 5² × 5³",
+    "Simplify: 7⁶ ÷ 7²",
+    "Simplify: (4²)³",
+    "Evaluate: 6⁰ + 2³"
+  ],
+  "challenge_question": "Simplify fully: (3² × 3⁴) ÷ (3³ × 3⁰)",
+  "quick_test": [
+    "2⁵ = ? (32)",
+    "10⁰ = ? (1)",
+    "(3¹)⁴ = ? (81)"
+  ],
+  "mastery_check": "Mastered when a student applies the correct exponent law automatically based on the operation shown, and can explain in words why the law works rather than just memorising it."
+}

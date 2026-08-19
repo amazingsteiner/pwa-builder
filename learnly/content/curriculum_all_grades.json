@@ -1,0 +1,165 @@
+{
+  "note": "CAPS Mathematics structure, Grade R through Grade 9. This is the single source of truth the app checks against before showing any topic or number range to a student, so a Grade 2 learner can never be shown algebra, and a Grade 8 learner never sees Grade R counting. Verify exact ATP wording against the current official DBE documents before formal classroom use.",
+  "phases": {
+    "Foundation Phase": [0, 1, 2, 3],
+    "Intermediate Phase": [4, 5, 6],
+    "Senior Phase": [7, 8, 9]
+  },
+  "grades": {
+    "0": {
+      "label": "Grade R",
+      "phase": "Foundation Phase",
+      "number_range": [0, 10],
+      "operations": ["count", "add", "subtract"],
+      "topics": [
+        {"id": "counting", "name": "Counting & Number Recognition", "icon": "🔢"},
+        {"id": "shapes_r", "name": "Shapes & Patterns", "icon": "🔺"},
+        {"id": "sorting", "name": "Sorting & Comparing", "icon": "📏"},
+        {"id": "time_r", "name": "Time & Sequence (Days, Before/After)", "icon": "🕐"}
+      ]
+    },
+    "1": {
+      "label": "Grade 1",
+      "phase": "Foundation Phase",
+      "number_range": [0, 20],
+      "operations": ["add", "subtract", "count"],
+      "topics": [
+        {"id": "numbers_20", "name": "Numbers to 20", "icon": "🔢"},
+        {"id": "add_sub_20", "name": "Addition & Subtraction to 20", "icon": "➕"},
+        {"id": "shapes_1", "name": "2D & 3D Shapes", "icon": "🔺"},
+        {"id": "measurement_1", "name": "Length, Mass & Time (informal)", "icon": "📏"}
+      ]
+    },
+    "2": {
+      "label": "Grade 2",
+      "phase": "Foundation Phase",
+      "number_range": [0, 99],
+      "operations": ["add", "subtract", "multiply_intro", "count"],
+      "topics": [
+        {"id": "numbers_99", "name": "Numbers to 99", "icon": "🔢"},
+        {"id": "add_sub_99", "name": "Addition & Subtraction to 99", "icon": "➕"},
+        {"id": "repeated_add", "name": "Repeated Addition (intro to ×)", "icon": "✖️"},
+        {"id": "shapes_2", "name": "Shapes, Symmetry & Patterns", "icon": "🔺"}
+      ]
+    },
+    "3": {
+      "label": "Grade 3",
+      "phase": "Foundation Phase",
+      "number_range": [0, 999],
+      "operations": ["add", "subtract", "multiply", "divide_intro"],
+      "topics": [
+        {"id": "numbers_999", "name": "Numbers to 999", "icon": "🔢"},
+        {"id": "add_sub_999", "name": "Addition & Subtraction to 999", "icon": "➕"},
+        {"id": "mult_tables", "name": "Multiplication Tables (1-10)", "icon": "✖️"},
+        {"id": "division_intro", "name": "Sharing & Grouping (Division)", "icon": "➗"},
+        {"id": "fractions_intro", "name": "Fractions (halves, quarters)", "icon": "🍕"}
+      ]
+    },
+    "4": {
+      "label": "Grade 4",
+      "phase": "Intermediate Phase",
+      "number_range": [0, 9999],
+      "operations": ["add", "subtract", "multiply", "divide"],
+      "topics": [
+        {"id": "whole_numbers_4", "name": "Whole Numbers to 9999", "icon": "🔢"},
+        {"id": "mult_div_4", "name": "Multiplication & Division", "icon": "✖️"},
+        {"id": "common_fractions_4", "name": "Common Fractions", "icon": "🍕"},
+        {"id": "geometry_4", "name": "2D Shapes & 3D Objects", "icon": "🔺"},
+        {"id": "measurement_4", "name": "Length, Mass, Capacity, Time", "icon": "📏"}
+      ]
+    },
+    "5": {
+      "label": "Grade 5",
+      "phase": "Intermediate Phase",
+      "number_range": [0, 999999],
+      "operations": ["add", "subtract", "multiply", "divide"],
+      "topics": [
+        {"id": "whole_numbers_5", "name": "Whole Numbers to 999 999", "icon": "🔢"},
+        {"id": "common_fractions_5", "name": "Common Fractions", "icon": "🍕"},
+        {"id": "decimal_fractions_5", "name": "Decimal Fractions", "icon": "🔟"},
+        {"id": "geometry_5", "name": "Properties of Shapes", "icon": "🔺"},
+        {"id": "data_5", "name": "Data Handling (intro)", "icon": "📊"}
+      ]
+    },
+    "6": {
+      "label": "Grade 6",
+      "phase": "Intermediate Phase",
+      "number_range": [0, 9999999],
+      "operations": ["add", "subtract", "multiply", "divide", "percent_intro"],
+      "topics": [
+        {"id": "whole_numbers_6", "name": "Whole Numbers (millions)", "icon": "🔢"},
+        {"id": "fractions_6", "name": "Common & Decimal Fractions", "icon": "🍕"},
+        {"id": "percentages_6", "name": "Percentages (intro)", "icon": "💯"},
+        {"id": "ratio_6", "name": "Ratio & Rate (intro)", "icon": "⚖️"},
+        {"id": "geometry_6", "name": "Geometry & Transformations", "icon": "🔺"},
+        {"id": "data_6", "name": "Data Handling", "icon": "📊"}
+      ]
+    },
+    "7": {
+      "label": "Grade 7",
+      "phase": "Senior Phase",
+      "number_range": [-99999, 99999],
+      "operations": ["add", "subtract", "multiply", "divide", "exponents", "percent"],
+      "topics": [
+        {"id": "number_sense", "name": "Number Sense", "icon": "🧮"},
+        {"id": "whole_numbers", "name": "Whole Numbers & Integers", "icon": "🔢"},
+        {"id": "integers", "name": "Integers", "icon": "➖"},
+        {"id": "exponents", "name": "Exponents (intro)", "icon": "⚡"},
+        {"id": "patterns", "name": "Numeric Patterns", "icon": "🔁"},
+        {"id": "algebraic_expressions", "name": "Algebraic Expressions (intro)", "icon": "🧮"},
+        {"id": "geometry_lines", "name": "Geometry of Straight Lines", "icon": "📐"},
+        {"id": "area_perimeter", "name": "Area & Perimeter", "icon": "▭"},
+        {"id": "financial_maths", "name": "Financial Mathematics (intro)", "icon": "💰"},
+        {"id": "data_handling", "name": "Data Handling", "icon": "📊"},
+        {"id": "probability", "name": "Probability", "icon": "🎲"}
+      ],
+      "difficulty_scale": 0.75
+    },
+    "8": {
+      "label": "Grade 8",
+      "phase": "Senior Phase",
+      "number_range": [-999999, 999999],
+      "operations": ["add", "subtract", "multiply", "divide", "exponents", "percent"],
+      "topics": [
+        {"id": "number_sense", "name": "Number Sense", "icon": "🧮"},
+        {"id": "whole_numbers", "name": "Whole Numbers", "icon": "🔢"},
+        {"id": "integers", "name": "Integers", "icon": "➖"},
+        {"id": "exponents", "name": "Exponents", "icon": "⚡"},
+        {"id": "patterns", "name": "Numeric Patterns", "icon": "🔁"},
+        {"id": "algebraic_expressions", "name": "Algebraic Expressions", "icon": "🧮"},
+        {"id": "algebraic_equations", "name": "Algebraic Equations", "icon": "🟰"},
+        {"id": "geometry_lines", "name": "Geometry of Straight Lines", "icon": "📐"},
+        {"id": "pythagoras", "name": "Theorem of Pythagoras", "icon": "🔺"},
+        {"id": "area_perimeter", "name": "Area & Perimeter", "icon": "▭"},
+        {"id": "financial_maths", "name": "Financial Mathematics", "icon": "💰"},
+        {"id": "transformations", "name": "Transformation Geometry", "icon": "🔄"},
+        {"id": "data_handling", "name": "Data Handling", "icon": "📊"},
+        {"id": "probability", "name": "Probability", "icon": "🎲"}
+      ],
+      "difficulty_scale": 1.0
+    },
+    "9": {
+      "label": "Grade 9",
+      "phase": "Senior Phase",
+      "number_range": [-9999999, 9999999],
+      "operations": ["add", "subtract", "multiply", "divide", "exponents", "percent"],
+      "topics": [
+        {"id": "number_sense", "name": "Number Sense", "icon": "🧮"},
+        {"id": "whole_numbers", "name": "Whole Numbers", "icon": "🔢"},
+        {"id": "integers", "name": "Integers", "icon": "➖"},
+        {"id": "exponents", "name": "Exponents (incl. negative)", "icon": "⚡"},
+        {"id": "patterns", "name": "Numeric & Geometric Patterns", "icon": "🔁"},
+        {"id": "algebraic_expressions", "name": "Algebraic Expressions", "icon": "🧮"},
+        {"id": "algebraic_equations", "name": "Algebraic Equations", "icon": "🟰"},
+        {"id": "geometry_lines", "name": "Geometry of Straight Lines & Triangles", "icon": "📐"},
+        {"id": "pythagoras", "name": "Theorem of Pythagoras", "icon": "🔺"},
+        {"id": "area_perimeter", "name": "Area, Perimeter & Volume", "icon": "▭"},
+        {"id": "financial_maths", "name": "Financial Mathematics", "icon": "💰"},
+        {"id": "transformations", "name": "Transformation Geometry", "icon": "🔄"},
+        {"id": "data_handling", "name": "Data Handling", "icon": "📊"},
+        {"id": "probability", "name": "Probability", "icon": "🎲"}
+      ],
+      "difficulty_scale": 1.25
+    }
+  }
+}

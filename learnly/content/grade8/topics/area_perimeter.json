@@ -1,0 +1,65 @@
+{
+  "id": "area_perimeter",
+  "name": "Area & Perimeter",
+  "what_is_it": "Perimeter is the total distance around the outside of a 2D shape. Area is the amount of surface a 2D shape covers. Grade 8 covers rectangles, triangles, and circles.",
+  "why_it_matters": "These calculations are used constantly in real life — flooring, fencing, painting, land measurement, packaging design — and form the base for surface area and volume in later grades.",
+  "key_vocabulary": [
+    "Perimeter — total distance around a shape's outer boundary",
+    "Area — the surface covered by a 2D shape, measured in square units",
+    "Circumference — the perimeter of a circle",
+    "Radius — distance from the centre of a circle to its edge",
+    "Diameter — distance across a circle through its centre (2 × radius)",
+    "π (pi) — approximately 3.142, the ratio of a circle's circumference to its diameter"
+  ],
+  "core_concept": "Perimeter adds up lengths (1D); area multiplies two dimensions together (2D), which is why area is always in square units (cm², m²).",
+  "rules": [
+    "Perimeter of any polygon = sum of all side lengths.",
+    "For a triangle's area, the height must be PERPENDICULAR (90°) to the chosen base.",
+    "Circle formulae always require the radius — convert diameter to radius by halving it first."
+  ],
+  "formulae": [
+    "Rectangle: Perimeter = 2(l + b);  Area = l × b",
+    "Square: Perimeter = 4s;  Area = s²",
+    "Triangle: Area = ½ × base × height",
+    "Circle: Circumference = 2πr = πd;  Area = πr²"
+  ],
+  "step_by_step_method": [
+    "STEP 1: Identify the shape and write down the known measurements.",
+    "STEP 2: Choose the correct formula for that shape and quantity (area or perimeter).",
+    "STEP 3: Make sure all measurements are in the SAME unit before substituting.",
+    "STEP 4: Substitute values and calculate carefully, using π ≈ 3.142 unless told otherwise.",
+    "STEP 5: Write the final answer with correct units (linear units for perimeter, square units for area)."
+  ],
+  "worked_example_1": {
+    "question": "Find the area and perimeter of a rectangle 12 cm long and 5 cm wide.",
+    "solution": "Perimeter = 2(12 + 5) = 2(17) = 34 cm\nArea = 12 × 5 = 60 cm²"
+  },
+  "worked_example_2": {
+    "question": "Find the area and circumference of a circle with radius 7 cm (use π ≈ 22/7).",
+    "solution": "Circumference = 2πr = 2 × 22/7 × 7 = 44 cm\nArea = πr² = 22/7 × 7² = 22/7 × 49 = 154 cm²"
+  },
+  "fast_method": "When the radius is a multiple of 7, use π ≈ 22/7 instead of 3.142 — the 7s cancel out cleanly and give exact fractions/whole numbers without a calculator.",
+  "why_fast_method_works": "22/7 is a rational approximation of π chosen specifically because it simplifies neatly against multiples of 7, avoiding messy decimal multiplication.",
+  "common_mistakes": [
+    "Using a slanted side length instead of the perpendicular height in a triangle's area formula.",
+    "Mixing units (e.g. one length in cm, another in m) before converting.",
+    "Using the diameter instead of the radius in circle formulae.",
+    "Forgetting to square the units for area (writing cm instead of cm²)."
+  ],
+  "memory_trick": "\"Perimeter is the fence (1 dimension, add lengths). Area is the carpet (2 dimensions, multiply lengths).\"",
+  "visual_explanation": "Learnly draws the shape with all given measurements labelled directly on the diagram, including a dashed line showing the perpendicular height of a triangle.",
+  "guided_example": "Find the area of a triangle with base 10 cm and height 6 cm.\n1) Formula: Area = ½ × base × height\n2) Area = ½ × 10 × 6\n3) Area = ½ × 60 = 30 cm²",
+  "practice_questions": [
+    "Find the area of a rectangle 8 m by 3 m.",
+    "Find the perimeter of a square with side 9 cm.",
+    "Find the area of a triangle with base 14 cm and height 5 cm.",
+    "Find the circumference of a circle with diameter 20 cm (π ≈ 3.142)."
+  ],
+  "challenge_question": "A rectangular garden 15 m by 10 m has a circular pond of radius 3 m cut out of it. Find the remaining area of the garden.",
+  "quick_test": [
+    "Area of rectangle 4×6? (24)",
+    "Perimeter of square with side 5? (20)",
+    "Area of triangle base 8 height 3? (12)"
+  ],
+  "mastery_check": "Mastered when a student selects the correct formula for a given shape without prompting, keeps units consistent, and can solve composite/combined shape problems."
+}

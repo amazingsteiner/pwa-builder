@@ -1,0 +1,41 @@
+{
+  "grade": 8,
+  "subject": "Mathematics",
+  "country": "South Africa",
+  "curriculum": "CAPS (Senior Phase)",
+  "note": "Structured from published DBE Grade 8 Annual Teaching Plans (ATP). Verify exact wording/weeks against the current official ATP before formal school use.",
+  "terms": {
+    "1": {
+      "title": "Term 1 — Numbers & Operations",
+      "topics": ["number_sense", "whole_numbers", "integers", "exponents", "patterns"]
+    },
+    "2": {
+      "title": "Term 2 — Algebra & Geometry Foundations",
+      "topics": ["algebraic_expressions", "algebraic_equations", "geometry_lines"]
+    },
+    "3": {
+      "title": "Term 3 — Geometry, Measurement & Finance",
+      "topics": ["pythagoras", "area_perimeter", "financial_maths", "transformations"]
+    },
+    "4": {
+      "title": "Term 4 — Data & Probability / Revision",
+      "topics": ["data_handling", "probability"]
+    }
+  },
+  "topics": [
+    {"id": "number_sense", "name": "Number Sense", "term": 1, "icon": "🧮"},
+    {"id": "whole_numbers", "name": "Whole Numbers", "term": 1, "icon": "🔢"},
+    {"id": "integers", "name": "Integers", "term": 1, "icon": "➖"},
+    {"id": "exponents", "name": "Exponents", "term": 1, "icon": "⚡"},
+    {"id": "patterns", "name": "Numeric Patterns", "term": 1, "icon": "🔁"},
+    {"id": "algebraic_expressions", "name": "Algebraic Expressions", "term": 2, "icon": "🧮"},
+    {"id": "algebraic_equations", "name": "Algebraic Equations", "term": 2, "icon": "🟰"},
+    {"id": "geometry_lines", "name": "Geometry of Straight Lines", "term": 2, "icon": "📐"},
+    {"id": "pythagoras", "name": "Theorem of Pythagoras", "term": 3, "icon": "🔺"},
+    {"id": "area_perimeter", "name": "Area & Perimeter", "term": 3, "icon": "▭"},
+    {"id": "financial_maths", "name": "Financial Mathematics", "term": 3, "icon": "💰"},
+    {"id": "transformations", "name": "Transformation Geometry", "term": 3, "icon": "🔄"},
+    {"id": "data_handling", "name": "Data Handling", "term": 4, "icon": "📊"},
+    {"id": "probability", "name": "Probability", "term": 4, "icon": "🎲"}
+  ]
+}

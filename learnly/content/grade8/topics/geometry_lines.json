@@ -1,0 +1,65 @@
+{
+  "id": "geometry_lines",
+  "name": "Geometry of Straight Lines",
+  "what_is_it": "This topic studies angles formed when straight lines meet or cross, including angles on a straight line, around a point, vertically opposite angles, and angles formed by a transversal crossing parallel lines.",
+  "why_it_matters": "Angle relationships are the building blocks for proving properties of shapes, reading construction/engineering plans, and every later geometry topic including Pythagoras and trigonometry.",
+  "key_vocabulary": [
+    "Angle — the amount of turn between two rays meeting at a point (vertex)",
+    "Straight angle — an angle of exactly 180°",
+    "Vertically opposite angles — the equal angles formed on opposite sides when two lines cross",
+    "Transversal — a line that crosses two or more other lines",
+    "Parallel lines — lines that never meet and stay the same distance apart",
+    "Corresponding, alternate, and co-interior angles — special angle pairs formed when a transversal crosses parallel lines"
+  ],
+  "core_concept": "Certain angle pairs always add up to a fixed total (180° or 360°), or are always exactly equal, based only on the geometric arrangement of the lines — no measuring required, just applying the rule.",
+  "rules": [
+    "Angles on a straight line add up to 180°.",
+    "Angles around a point add up to 360°.",
+    "Vertically opposite angles are equal.",
+    "When a transversal crosses PARALLEL lines: corresponding angles are equal, alternate angles are equal, co-interior (allied) angles add up to 180°."
+  ],
+  "formulae": [
+    "Straight line: a + b = 180°",
+    "Angles around a point: a + b + c + ... = 360°",
+    "Co-interior angles: a + b = 180° (only if lines are parallel)"
+  ],
+  "step_by_step_method": [
+    "STEP 1: Identify what type of angle pair you are looking at (straight line, point, vertically opposite, or transversal pair).",
+    "STEP 2: State the geometric rule that applies (e.g. 'angles on a straight line').",
+    "STEP 3: Write an equation using the rule.",
+    "STEP 4: Solve for the unknown angle.",
+    "STEP 5: Always give a geometric REASON next to your answer (this is required in CAPS exams)."
+  ],
+  "worked_example_1": {
+    "question": "Two angles on a straight line are x and 65°. Find x.",
+    "solution": "x + 65° = 180°  (angles on a straight line)\nx = 180° − 65° = 115°"
+  },
+  "worked_example_2": {
+    "question": "Two parallel lines are cut by a transversal. One co-interior angle is 70°. Find the other.",
+    "solution": "Co-interior angles add up to 180° (lines are parallel)\nOther angle = 180° − 70° = 110°"
+  },
+  "fast_method": "Learn to instantly recognise the angle 'shape' pattern: a Z-shape means alternate angles (equal), an F-shape means corresponding angles (equal), a C/U-shape means co-interior angles (sum to 180°).",
+  "why_fast_method_works": "These letter shapes are visual shortcuts for the geometric relationship — once you can spot the shape in a diagram you instantly know the rule, without re-deriving it.",
+  "common_mistakes": [
+    "Assuming angles are equal or supplementary without first checking the lines are actually parallel.",
+    "Mixing up alternate angles (Z, equal) with co-interior angles (C, sum to 180°).",
+    "Forgetting to state the geometric reason in the final answer.",
+    "Misreading which angles in a diagram are vertically opposite versus adjacent."
+  ],
+  "memory_trick": "\"Z is for eZual (alternate, equal). F is For the same corresponding position. C is for Co-interior, they Combine to 180°.\"",
+  "visual_explanation": "Learnly's geometry canvas draws two parallel lines crossed by a transversal, labelling all eight angles so the learner can visually identify each pair type.",
+  "guided_example": "Find x if x and 3x are angles on a straight line.\n1) x + 3x = 180°\n2) 4x = 180°\n3) x = 45°\n(so the two angles are 45° and 135°)",
+  "practice_questions": [
+    "Angles on a straight line: x and 110°. Find x.",
+    "Angles around a point: 90°, 120°, and y. Find y.",
+    "Vertically opposite angle to 55° = ?",
+    "Alternate angle to 72° (parallel lines) = ?"
+  ],
+  "challenge_question": "A transversal crosses two parallel lines. One angle is (2x + 10)° and its co-interior angle is (3x − 30)°. Find x and both angles.",
+  "quick_test": [
+    "Angles on a straight line sum to? (180°)",
+    "Angles around a point sum to? (360°)",
+    "Vertically opposite angles are always? (equal)"
+  ],
+  "mastery_check": "Mastered when a student can identify the correct angle relationship from a diagram, set up the equation, solve it, and state the correct geometric reason without prompting."
+}

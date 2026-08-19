@@ -1,0 +1,63 @@
+{
+  "id": "pythagoras",
+  "name": "Theorem of Pythagoras",
+  "what_is_it": "The Theorem of Pythagoras describes a fixed relationship between the three sides of a RIGHT-ANGLED triangle: the square of the hypotenuse equals the sum of the squares of the other two sides.",
+  "why_it_matters": "It lets us calculate an unknown side of a right triangle without measuring it directly, and it underpins distance calculations, construction, navigation, and later trigonometry.",
+  "key_vocabulary": [
+    "Right-angled triangle — a triangle with one 90° angle",
+    "Hypotenuse — the longest side of a right triangle, always opposite the right angle",
+    "Legs — the two shorter sides that form the right angle"
+  ],
+  "core_concept": "This theorem ONLY works for right-angled triangles. The hypotenuse is always the side opposite the right angle and is always the longest side.",
+  "rules": [
+    "The theorem applies only to right-angled triangles.",
+    "c must always represent the hypotenuse (opposite the right angle), never one of the legs.",
+    "To find the hypotenuse: add the squares of the legs, then take the square root.",
+    "To find a leg: subtract the known leg's square from the hypotenuse's square, then take the square root."
+  ],
+  "formulae": [
+    "a² + b² = c²  (c = hypotenuse)",
+    "c = √(a² + b²)",
+    "a = √(c² − b²)"
+  ],
+  "step_by_step_method": [
+    "STEP 1: Draw/label the triangle and identify the right angle.",
+    "STEP 2: Identify the hypotenuse (opposite the right angle) and the two legs.",
+    "STEP 3: Decide whether you're solving for the hypotenuse or a leg.",
+    "STEP 4: Substitute the known values into a² + b² = c².",
+    "STEP 5: Solve the equation, square rooting at the end.",
+    "STEP 6: Round appropriately and include units."
+  ],
+  "worked_example_1": {
+    "question": "A right triangle has legs 6 cm and 8 cm. Find the hypotenuse.",
+    "solution": "c² = 6² + 8² = 36 + 64 = 100\nc = √100 = 10 cm"
+  },
+  "worked_example_2": {
+    "question": "A right triangle has hypotenuse 13 cm and one leg 5 cm. Find the other leg.",
+    "solution": "a² = 13² − 5² = 169 − 25 = 144\na = √144 = 12 cm"
+  },
+  "fast_method": "Memorise common Pythagorean triples: (3,4,5), (6,8,10), (5,12,13), (9,12,15), (8,15,17). If the given numbers are multiples of these, you can find the answer instantly without calculating.",
+  "why_fast_method_works": "These triples are whole-number solutions to a² + b² = c² that recur constantly in textbook problems — recognising the pattern (or a scaled version of it) saves time on the algebra.",
+  "common_mistakes": [
+    "Adding the hypotenuse's square to a leg's square instead of subtracting when solving for a missing leg.",
+    "Forgetting to square-root the final answer.",
+    "Applying the theorem to a triangle that is not right-angled.",
+    "Mislabeling which side is the hypotenuse in an unusually-oriented diagram."
+  ],
+  "memory_trick": "\"The hypotenuse is the HERO — it's always opposite the right angle, always the longest side, and always squared alone on one side of the equation.\"",
+  "visual_explanation": "Learnly draws a right-angled triangle with the right-angle marker, and shades squares built on each side to visually show area(a²)+area(b²)=area(c²).",
+  "guided_example": "A ladder 5 m long leans against a wall. Its base is 3 m from the wall. How high up the wall does it reach?\n1) The ladder is the hypotenuse: c = 5\n2) Known leg: b = 3\n3) height² = 5² − 3² = 25 − 9 = 16\n4) height = √16 = 4 m",
+  "practice_questions": [
+    "Legs 9 cm and 12 cm — find the hypotenuse.",
+    "Hypotenuse 25 cm, one leg 7 cm — find the other leg.",
+    "Legs 5 cm and 5 cm — find the hypotenuse (round to 1 decimal).",
+    "Is a triangle with sides 7, 24, 25 right-angled? Prove it."
+  ],
+  "challenge_question": "A rectangular field is 40 m long and its diagonal is 41 m. Find the width of the field, then calculate its area.",
+  "quick_test": [
+    "3² + 4² = ? (25, so hypotenuse = 5)",
+    "Which side is always the hypotenuse? (opposite the right angle)",
+    "√144 = ? (12)"
+  ],
+  "mastery_check": "Mastered when a student correctly identifies the hypotenuse in any orientation, chooses addition vs subtraction correctly, and solves real-world word problems using the theorem."
+}

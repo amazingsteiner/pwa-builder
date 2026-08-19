@@ -1,0 +1,45 @@
+{
+  "id": "matter_materials",
+  "name": "Matter and Materials",
+  "diagram": "states_of_matter",
+  "what_is_it": "Matter and Materials studies what everything around us is made of, how particles behave in solids, liquids and gases, and how substances can change physically and chemically.",
+  "why_it_matters": "Understanding matter explains everyday phenomena — why ice melts, why steam rises, why mixing chemicals in a kitchen can be dangerous — and underpins chemistry, engineering, cooking, and materials science.",
+  "key_vocabulary": [
+    "Matter — anything that has mass and takes up space (volume)",
+    "Particle — a tiny piece of matter (atom or molecule) too small to see individually",
+    "Solid — matter with a fixed shape and fixed volume; particles vibrate in place, tightly packed",
+    "Liquid — matter with a fixed volume but no fixed shape; particles are close but can slide past each other",
+    "Gas — matter with no fixed shape or volume; particles are far apart and move freely",
+    "Physical change — a change that alters the form of a substance without creating a new substance (e.g. melting)",
+    "Chemical change — a change that produces a new substance with different properties (e.g. burning, rusting)",
+    "Mixture — two or more substances combined without chemically bonding, so each keeps its own properties",
+    "Pure substance — a substance made of only one kind of particle (an element or a compound)"
+  ],
+  "core_concept": "All matter is made of tiny moving particles. How closely packed and how freely those particles move determines whether a substance is a solid, liquid, or gas — and heating or cooling matter changes how much the particles move, which is why substances change state.",
+  "key_facts": [
+    "Heating a solid gives its particles more energy, making them vibrate more until they break free into a liquid (melting).",
+    "Heating a liquid enough gives particles so much energy they escape into a gas (boiling/evaporation).",
+    "Cooling a gas causes particles to slow down and come together into a liquid (condensation), and cooling a liquid further can form a solid (freezing).",
+    "In a physical change (like melting or dissolving), no new substance is formed and the change can usually be reversed.",
+    "In a chemical change (like burning or rusting), a new substance with new properties is formed and it is usually difficult to reverse.",
+    "Mixtures can be separated using physical methods (filtration, evaporation, sieving) because the substances haven't chemically combined."
+  ],
+  "common_misconceptions": [
+    "Thinking particles themselves expand when heated — actually the particles move FASTER and spread further apart, they don't get bigger.",
+    "Believing gas has no mass — gases have mass, just spread out over a larger volume.",
+    "Assuming all mixtures look mixed — a solution (like sugar in water) is a mixture even though you can't see separate parts.",
+    "Confusing melting (solid→liquid) with dissolving (a solid spreading through a liquid) — these are different processes."
+  ],
+  "quiz_facts": [
+    {"q": "What state of matter has a fixed shape AND fixed volume?", "a": "Solid"},
+    {"q": "What is it called when a liquid changes to a gas?", "a": "Evaporation (or boiling)"},
+    {"q": "Is rusting a physical or chemical change?", "a": "Chemical change"},
+    {"q": "What do we call matter made of only one kind of particle?", "a": "Pure substance"},
+    {"q": "What happens to particle movement when a substance is heated?", "a": "It increases / particles move faster"}
+  ],
+  "quick_test": [
+    "Name the three common states of matter.",
+    "Give one example of a physical change and one of a chemical change.",
+    "Why can mixtures be separated by physical methods?"
+  ]
+}

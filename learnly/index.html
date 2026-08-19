@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#111827">
+  <meta name="description" content="Learnly — Learn and Grow. Offline-first learning, practice and progress.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <title>Learnly</title>
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <button class="icon-btn" id="menuBtn" aria-label="Menu">☰</button>
+      <div class="brand"><span>LEARNLY</span><small>Learn and Grow</small></div>
+      <button class="icon-btn" id="installBtn" hidden>＋</button>
+    </header>
+
+    <aside id="drawer" class="drawer">
+      <div class="drawer-head">
+        <strong>LEARNLY</strong>
+        <button class="icon-btn" id="closeDrawer">×</button>
+      </div>
+      <button data-route="home">🏠 Home</button>
+      <button data-route="learn">📚 Learn</button>
+      <button data-route="practice">⚡ Practice</button>
+      <button data-route="papers">📄 Papers</button>
+      <button data-route="progress">📈 Progress</button>
+      <button data-route="profile">👤 Profile</button>
+      <hr>
+      <button data-route="settings">⚙ Settings</button>
+    </aside>
+
+    <main id="main"></main>
+
+    <nav class="bottom-nav">
+      <button data-route="home">🏠<span>Home</span></button>
+      <button data-route="learn">📚<span>Learn</span></button>
+      <button data-route="practice">⚡<span>Practice</span></button>
+      <button data-route="papers">📄<span>Papers</span></button>
+      <button data-route="progress">📈<span>Progress</span></button>
+    </nav>
+  </div>
+  <div id="toast" class="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>

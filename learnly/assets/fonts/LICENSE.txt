@@ -1,0 +1,7 @@
+DejaVu Sans / DejaVu Sans Bold - bundled fonts
+================================================
+DejaVu fonts are based on Bitstream Vera and are released under a
+permissive free license (Bitstream Vera License + Public Domain additions),
+which explicitly permits bundling, embedding, and redistribution with
+software, including modification. See https://dejavu-fonts.github.io/License.html
+for the full license text. No attribution restriction prevents bundling.

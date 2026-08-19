@@ -1,0 +1,45 @@
+{
+  "id": "life_living",
+  "name": "Life and Living",
+  "diagram": "food_chain",
+  "what_is_it": "Life and Living studies living organisms, how they get and use energy, how they depend on each other in ecosystems, and how energy and matter flow through food chains and food webs.",
+  "why_it_matters": "Understanding ecosystems helps us see how human activity (pollution, deforestation, overfishing) affects the balance of nature, and explains why biodiversity and conservation matter for our own survival.",
+  "key_vocabulary": [
+    "Ecosystem — all the living organisms in an area together with the non-living parts of their environment (water, soil, air)",
+    "Producer — an organism (usually a green plant) that makes its own food using photosynthesis",
+    "Consumer — an organism that gets energy by eating other organisms",
+    "Herbivore — a consumer that eats only plants",
+    "Carnivore — a consumer that eats only other animals",
+    "Omnivore — a consumer that eats both plants and animals",
+    "Decomposer — an organism (like fungi or bacteria) that breaks down dead organisms and waste, recycling nutrients",
+    "Food chain — a single pathway showing how energy passes from one organism to the next",
+    "Food web — a network of interconnected food chains showing more realistic feeding relationships",
+    "Photosynthesis — the process plants use to make food (glucose) from sunlight, water, and carbon dioxide"
+  ],
+  "core_concept": "Energy flows in ONE direction through an ecosystem — from the sun, to producers, to consumers, and eventually to decomposers — while nutrients are recycled back into the environment for producers to use again.",
+  "key_facts": [
+    "The sun is the ultimate energy source for almost every food chain on Earth.",
+    "Only about 10% of the energy at one feeding level is passed on to the next level — most is lost as heat.",
+    "Producers always sit at the base of a food chain because they capture energy directly from sunlight.",
+    "Removing one species from a food web can affect many other species, because most organisms are connected through several feeding relationships.",
+    "Decomposers are essential — without them, nutrients would stay locked in dead material and never be recycled back to producers."
+  ],
+  "common_misconceptions": [
+    "Thinking arrows in a food chain mean 'is eaten by' — they actually mean 'energy flows to', pointing from what's eaten toward what eats it.",
+    "Believing bigger animals are always at the top of every food chain — position depends on what an organism eats, not its size.",
+    "Assuming plants don't need anything to survive — they still require water, minerals, carbon dioxide, and light.",
+    "Thinking a food web is just several separate food chains with no real interaction — the whole point is that they're interconnected."
+  ],
+  "quiz_facts": [
+    {"q": "What is an organism that makes its own food called?", "a": "Producer"},
+    {"q": "What is the ultimate source of energy for most ecosystems?", "a": "The sun"},
+    {"q": "What do we call an animal that eats both plants and animals?", "a": "Omnivore"},
+    {"q": "What organisms break down dead material and recycle nutrients?", "a": "Decomposers"},
+    {"q": "What process do plants use to make their own food?", "a": "Photosynthesis"}
+  ],
+  "quick_test": [
+    "Draw a simple food chain with 4 organisms, starting with a producer.",
+    "Explain why decomposers are important to an ecosystem.",
+    "What's the difference between a food chain and a food web?"
+  ]
+}

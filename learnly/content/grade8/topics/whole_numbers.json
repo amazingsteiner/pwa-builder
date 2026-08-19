@@ -1,0 +1,66 @@
+{
+  "id": "whole_numbers",
+  "name": "Whole Numbers",
+  "what_is_it": "Whole numbers are the counting numbers together with zero: 0, 1, 2, 3, 4 ... They have no fractions or decimals and are never negative. Grade 8 focuses on their properties, prime factorisation, and finding the LCM (Lowest Common Multiple) and HCF (Highest Common Factor).",
+  "why_it_matters": "Whole number skills are the foundation of almost everything else in maths — simplifying fractions, factorising algebra, solving ratio and finance problems, and working efficiently without a calculator.",
+  "key_vocabulary": [
+    "Factor — a number that divides exactly into another number",
+    "Multiple — the result of multiplying a number by an integer",
+    "Prime number — a number greater than 1 with only two factors: 1 and itself",
+    "Composite number — a number with more than two factors",
+    "LCM — Lowest Common Multiple, the smallest number that is a multiple of two or more numbers",
+    "HCF (GCD) — Highest Common Factor, the largest number that divides evenly into two or more numbers"
+  ],
+  "core_concept": "Every whole number greater than 1 can be broken down into a unique product of prime numbers — this is called prime factorisation. Once numbers are written as prime factors, comparing, simplifying, and finding LCM/HCF becomes far easier.",
+  "rules": [
+    "0 has no reciprocal and division by 0 is undefined.",
+    "1 is neither prime nor composite.",
+    "2 is the only even prime number.",
+    "Commutative law: a + b = b + a and a × b = b × a.",
+    "Associative law: (a+b)+c = a+(b+c) and (a×b)×c = a×(b×c).",
+    "Distributive law: a×(b+c) = a×b + a×c.",
+    "BODMAS/BEDMAS: Brackets, Exponents, Division/Multiplication (left to right), Addition/Subtraction (left to right)."
+  ],
+  "formulae": [
+    "HCF × LCM = a × b (for two numbers a and b)",
+    "Prime factorisation: write a number as a product of primes, e.g. 60 = 2² × 3 × 5"
+  ],
+  "step_by_step_method": [
+    "STEP 1: Find prime factors using a factor tree — repeatedly divide by the smallest prime that fits.",
+    "STEP 2: Write the number as a product of primes using exponents.",
+    "STEP 3: For HCF — multiply the LOWEST power of every common prime factor.",
+    "STEP 4: For LCM — multiply the HIGHEST power of every prime factor that appears in any number."
+  ],
+  "worked_example_1": {
+    "question": "Find the HCF and LCM of 36 and 60.",
+    "solution": "36 = 2² × 3²   60 = 2² × 3 × 5\nHCF = 2² × 3 = 12 (lowest powers of common primes)\nLCM = 2² × 3² × 5 = 180 (highest powers of all primes present)"
+  },
+  "worked_example_2": {
+    "question": "Simplify 24 ÷ 4 + 3 × (5 − 2) using the order of operations.",
+    "solution": "Brackets first: (5−2) = 3\n24 ÷ 4 = 6\n3 × 3 = 9\n6 + 9 = 15"
+  },
+  "fast_method": "To check if a number is divisible: by 2 if it's even, by 3 if digit sum divides by 3, by 5 if it ends in 0 or 5, by 9 if digit sum divides by 9, by 10 if it ends in 0.",
+  "why_fast_method_works": "Divisibility rules come from how our base-10 place value system behaves under division — they let you test large numbers without doing full long division.",
+  "common_mistakes": [
+    "Forgetting BODMAS and calculating strictly left-to-right.",
+    "Confusing HCF (smallest shared building block) with LCM (smallest shared multiple).",
+    "Treating 1 as a prime number.",
+    "Stopping a factor tree before every branch reaches a prime."
+  ],
+  "memory_trick": "HCF is Highest but usually the SMALLER answer (it divides IN). LCM is Lowest but usually the BIGGER answer (numbers divide INTO it).",
+  "visual_explanation": "A factor tree diagram: branches split each composite number into two factors until every leaf is a prime. Learnly can draw this as a simple branching tree.",
+  "guided_example": "Find the HCF of 18 and 24.\n1) 18 = 2 × 3²\n2) 24 = 2³ × 3\n3) Common primes: 2 and 3.\n4) Lowest powers: 2¹ and 3¹.\n5) HCF = 2 × 3 = 6.",
+  "practice_questions": [
+    "Find the prime factors of 84.",
+    "Find the HCF of 48 and 72.",
+    "Find the LCM of 8 and 12.",
+    "Calculate 15 − 2 × (4 + 1)."
+  ],
+  "challenge_question": "Three bells ring every 12, 18 and 24 minutes. If they all ring together at 08:00, when will they next ring together?",
+  "quick_test": [
+    "Is 1 a prime number? (No)",
+    "What is 2³ × 3 in expanded form? (2×2×2×3 = 24)",
+    "HCF of 10 and 15? (5)"
+  ],
+  "mastery_check": "A student has mastered this topic when they can build a factor tree unaided, correctly compute HCF and LCM for any two numbers, and apply BODMAS to mixed operation expressions without error."
+}

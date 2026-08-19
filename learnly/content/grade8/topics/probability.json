@@ -1,0 +1,63 @@
+{
+  "id": "probability",
+  "name": "Probability",
+  "what_is_it": "Probability measures how likely an event is to happen, expressed as a fraction, decimal, or percentage between 0 (impossible) and 1 (certain). Grade 8 covers sample space and simple theoretical probability.",
+  "why_it_matters": "Probability underlies weather forecasting, games, insurance, medical testing, and everyday risk decisions — understanding it helps interpret the world's uncertainty rationally.",
+  "key_vocabulary": [
+    "Experiment/trial — an action with an uncertain result, e.g. rolling a die",
+    "Outcome — a possible result of a trial",
+    "Sample space — the set of ALL possible outcomes",
+    "Event — one or more outcomes that we are interested in",
+    "Favourable outcome — an outcome that matches the event we want"
+  ],
+  "core_concept": "Theoretical probability is calculated purely from counting possible outcomes assuming everything is equally likely: P(event) = favourable outcomes ÷ total outcomes in the sample space.",
+  "rules": [
+    "Probability is always between 0 and 1 (or 0% and 100%) — never negative, never above 1.",
+    "P(event) + P(not event) = 1 — the complement rule.",
+    "P(impossible event) = 0. P(certain event) = 1.",
+    "The sample space must list every equally-likely outcome exactly once."
+  ],
+  "formulae": [
+    "P(event) = number of favourable outcomes ÷ total number of outcomes",
+    "P(not A) = 1 − P(A)"
+  ],
+  "step_by_step_method": [
+    "STEP 1: List (or count) the full sample space — every possible outcome.",
+    "STEP 2: Identify the favourable outcomes that satisfy the event.",
+    "STEP 3: Divide favourable outcomes by total outcomes.",
+    "STEP 4: Simplify the fraction, and convert to a decimal or percentage if required.",
+    "STEP 5: Sanity-check: the answer must be between 0 and 1."
+  ],
+  "worked_example_1": {
+    "question": "A fair die is rolled. Find P(rolling a number greater than 4).",
+    "solution": "Sample space: {1,2,3,4,5,6} → 6 outcomes\nFavourable: {5,6} → 2 outcomes\nP = 2/6 = 1/3"
+  },
+  "worked_example_2": {
+    "question": "A bag has 5 red, 3 blue, and 2 green balls. Find P(not red).",
+    "solution": "Total = 5+3+2 = 10\nP(red) = 5/10 = 1/2\nP(not red) = 1 − 1/2 = 1/2 (or directly: 3+2=5 favourable, 5/10=1/2)"
+  },
+  "fast_method": "Use the complement rule P(not A) = 1 − P(A) when it's easier to count the 'opposite' outcomes than the event itself — e.g. 'at least one' problems are often easier as 1 − P(none).",
+  "why_fast_method_works": "Since the event and its complement together cover the ENTIRE sample space exactly once, their probabilities must add to 1 — so if one is hard to count directly, the other often isn't.",
+  "common_mistakes": [
+    "Listing the sample space incorrectly (missing or duplicating outcomes).",
+    "Forgetting to simplify the final probability fraction.",
+    "Giving an answer greater than 1 or negative — a sign the sample space or favourable count is wrong.",
+    "Confusing theoretical probability (calculated) with experimental probability (measured by actually running trials)."
+  ],
+  "memory_trick": "\"Probability is a fraction: what you WANT over what's POSSIBLE.\"",
+  "visual_explanation": "Learnly's Probability Lab shows a sample-space table or tree diagram, highlighting favourable outcomes in a different colour so learners can visually count them.",
+  "guided_example": "A spinner has 8 equal sectors numbered 1–8. Find P(even number).\n1) Sample space: {1,2,3,4,5,6,7,8} → 8 outcomes\n2) Favourable (even): {2,4,6,8} → 4 outcomes\n3) P = 4/8 = 1/2",
+  "practice_questions": [
+    "A coin is tossed. Find P(heads).",
+    "A die is rolled. Find P(rolling a 3 or 5).",
+    "A bag has 4 yellow and 6 green sweets. Find P(yellow).",
+    "Find P(not rolling a 6) on a fair die."
+  ],
+  "challenge_question": "Two coins are tossed together. List the full sample space and find P(at least one head).",
+  "quick_test": [
+    "P(certain event)? (1)",
+    "P(impossible event)? (0)",
+    "Die roll, P(even)? (1/2)"
+  ],
+  "mastery_check": "Mastered when a student can build a correct sample space for simple experiments, apply the probability formula accurately, and use the complement rule where appropriate."
+}

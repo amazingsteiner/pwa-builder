@@ -1,0 +1,66 @@
+{
+  "id": "financial_maths",
+  "name": "Financial Mathematics",
+  "what_is_it": "Financial mathematics applies percentage and ratio skills to real money situations: simple interest, and profit/loss calculations.",
+  "why_it_matters": "These are life skills used for savings accounts, loans, budgeting, shopping discounts, and running a small business — understanding them protects you from bad financial decisions.",
+  "key_vocabulary": [
+    "Principal — the original amount of money invested or borrowed",
+    "Interest — the extra money earned (savings) or owed (loan) over time",
+    "Interest rate — the percentage used to calculate interest, usually per year",
+    "Cost price — what an item cost to buy or make",
+    "Selling price — what an item is sold for",
+    "Profit — selling price minus cost price (when positive)",
+    "Loss — selling price minus cost price (when negative)"
+  ],
+  "core_concept": "Simple interest is calculated on the ORIGINAL principal only, every period — it does not compound (grow on top of previous interest). Profit/loss compares selling price to cost price.",
+  "rules": [
+    "Simple interest is always a percentage of the ORIGINAL principal, not the growing balance.",
+    "Profit % is calculated relative to the COST price, not the selling price.",
+    "Convert percentages to decimals by dividing by 100 before calculating."
+  ],
+  "formulae": [
+    "Simple Interest: I = P × r × t  (P = principal, r = rate as a decimal, t = time in years)",
+    "Total amount: A = P + I = P(1 + rt)",
+    "Profit = Selling Price − Cost Price",
+    "Profit % = (Profit ÷ Cost Price) × 100"
+  ],
+  "step_by_step_method": [
+    "STEP 1: Identify what is known: principal, rate, time, cost price, or selling price.",
+    "STEP 2: Convert the interest rate percentage to a decimal (divide by 100).",
+    "STEP 3: Choose the correct formula (simple interest or profit/loss).",
+    "STEP 4: Substitute the values carefully, keeping time in the same units as the rate (usually years).",
+    "STEP 5: Calculate and interpret the answer in context (money, with correct currency symbol)."
+  ],
+  "worked_example_1": {
+    "question": "R5 000 is invested at 8% simple interest per year for 3 years. Find the interest earned and the total amount.",
+    "solution": "I = P × r × t = 5000 × 0.08 × 3 = R1 200\nTotal A = P + I = 5000 + 1200 = R6 200"
+  },
+  "worked_example_2": {
+    "question": "A shopkeeper buys a jacket for R400 and sells it for R520. Find the profit and profit percentage.",
+    "solution": "Profit = 520 − 400 = R120\nProfit % = (120 ÷ 400) × 100 = 30%"
+  },
+  "fast_method": "For simple interest, calculate ONE year's interest first (P × r), then simply multiply by the number of years — no need to redo the full formula each year since it never compounds.",
+  "why_fast_method_works": "Because simple interest is always based on the same unchanging principal, the interest earned each year is identical — so total interest is just (one year's interest) × (number of years).",
+  "common_mistakes": [
+    "Forgetting to convert the percentage rate to a decimal before multiplying.",
+    "Using the selling price instead of the cost price as the base for profit percentage.",
+    "Mixing time units (e.g. rate given per year but time given in months without converting).",
+    "Confusing 'total amount' (P + I) with just the interest (I)."
+  ],
+  "memory_trick": "\"Simple interest: same interest every single year — Principal never changes.\"",
+  "visual_explanation": "A simple bar showing the principal at the base with equal interest blocks stacked on top for each year — visually demonstrating why simple interest grows in a straight line, not a curve.",
+  "guided_example": "R2 000 invested at 5% simple interest for 4 years. Find the total amount.\n1) I = 2000 × 0.05 × 4 = R400\n2) A = 2000 + 400 = R2 400",
+  "practice_questions": [
+    "Find simple interest on R3 000 at 6% for 2 years.",
+    "Find the total amount after investing R1 500 at 10% for 5 years.",
+    "A trader buys stock for R250 and sells for R300. Find profit %.",
+    "An item bought for R800 is sold for R680. Find the loss and loss %."
+  ],
+  "challenge_question": "R10 000 is invested at simple interest. After 4 years, the total amount is R12 800. Find the annual interest rate.",
+  "quick_test": [
+    "8% as a decimal? (0.08)",
+    "Profit = Selling − ? (Cost price)",
+    "I = P×r×t: if P=1000, r=0.1, t=2, I=? (200)"
+  ],
+  "mastery_check": "Mastered when a student correctly applies I = Prt to forwards AND backwards problems (finding rate or time when interest is known), and confidently calculates profit/loss percentages relative to cost price."
+}

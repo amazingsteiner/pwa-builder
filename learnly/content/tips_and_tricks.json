@@ -1,0 +1,159 @@
+{
+  "categories": [
+    {
+      "id": "addition",
+      "name": "Addition",
+      "icon": "➕",
+      "tricks": [
+        {"title": "Making 10", "when": "Adding single-digit numbers", "example": "8 + 5",
+         "method": "Take 2 from the 5 to make the 8 into 10, leaving 3. 10 + 3 = 13.",
+         "why": "Ten is the easiest number to add to - breaking one number apart to complete the other to 10 turns an awkward sum into two easy ones."},
+        {"title": "Compensation", "when": "Adding a number close to a multiple of 10", "example": "47 + 29",
+         "method": "Round 29 up to 30 (add 1), calculate 47+30=77, then subtract the 1 back: 76.",
+         "why": "Rounding to a friendly number makes the calculation instant; you just have to remember to undo the rounding afterward."},
+        {"title": "Left-to-right addition", "when": "Adding larger numbers mentally", "example": "234 + 152",
+         "method": "Add hundreds first (200+100=300), then tens (30+50=80), then ones (4+2=6). Combine: 386.",
+         "why": "Working from the biggest place value down matches how we naturally think about size, and avoids holding 'carry' numbers in your head."}
+      ]
+    },
+    {
+      "id": "subtraction",
+      "name": "Subtraction",
+      "icon": "➖",
+      "tricks": [
+        {"title": "Count up (the shopkeeper's method)", "when": "Numbers are close together", "example": "82 − 77",
+         "method": "Count up from 77 to 82: that's 5. So 82 − 77 = 5.",
+         "why": "When two numbers are close, it's often faster to find the gap between them than to subtract directly."},
+        {"title": "Round and compensate", "when": "Subtracting a number close to a multiple of 10", "example": "63 − 19",
+         "method": "Round 19 up to 20 (subtract 20 instead): 63−20=43. Since you subtracted 1 too many, add 1 back: 44.",
+         "why": "Subtracting a round number is easy; the compensation step corrects for the small amount you over-subtracted."},
+        {"title": "Break into hundreds/tens/ones", "when": "Subtracting multi-digit numbers", "example": "456 − 123",
+         "method": "Subtract hundreds (400−100=300), tens (50−20=30), ones (6−3=3). Combine: 333.",
+         "why": "Working place-value by place-value avoids complicated borrowing when no borrowing is actually needed."}
+      ]
+    },
+    {
+      "id": "multiplication",
+      "name": "Multiplication",
+      "icon": "✖️",
+      "tricks": [
+        {"title": "×10, ×100, ×1000", "when": "Multiplying by powers of 10", "example": "34 × 100",
+         "method": "Add the right number of zeros: 34 × 100 = 3400.",
+         "why": "Multiplying by 10 just shifts every digit one place value to the left - no calculation needed, just append zeros."},
+        {"title": "×5 shortcut", "when": "Multiplying by 5", "example": "48 × 5",
+         "method": "×5 = ×10 ÷ 2. So 48×10=480, then 480÷2=240.",
+         "why": "5 is exactly half of 10, so multiplying by 10 (easy) and halving (easy) is faster than direct ×5."},
+        {"title": "×25 shortcut", "when": "Multiplying by 25", "example": "16 × 25",
+         "method": "×25 = ×100 ÷ 4. So 16×100=1600, then 1600÷4=400.",
+         "why": "25 is a quarter of 100, so the multiplication becomes two very easy steps."},
+        {"title": "×50 shortcut", "when": "Multiplying by 50", "example": "18 × 50",
+         "method": "×50 = ×100 ÷ 2. So 18×100=1800, then 1800÷2=900.",
+         "why": "50 is half of 100, same idea as the ×5 trick but scaled up."},
+        {"title": "×9 shortcut", "when": "Multiplying by 9", "example": "23 × 9",
+         "method": "×9 = ×10 − the original number. 23×10=230, 230−23=207.",
+         "why": "9 is just one less than 10, so multiplying by 10 and subtracting the original number once corrects for the difference."},
+        {"title": "×11 pattern (2-digit numbers)", "when": "Multiplying a 2-digit number by 11", "example": "34 × 11",
+         "method": "Add the two digits (3+4=7) and place the result between them: 374.",
+         "why": "×11 = ×10 + ×1, which for a 2-digit number always produces this 'add and insert' pattern (carry if the sum is 10 or more)."},
+        {"title": "Doubling and halving", "when": "One factor is even", "example": "16 × 25",
+         "method": "Halve 16 to 8, double 25 to 50: 8 × 50 = 400 (same answer as 16×25).",
+         "why": "Halving one factor and doubling the other never changes the product, so you can trade an awkward multiplication for an easy one."},
+        {"title": "Near-100 multiplication", "when": "Multiplying two numbers close to 100", "example": "98 × 97",
+         "method": "Both are close to 100 (2 and 3 below). (100−2)(100−3) = 100×100 −100×3 −100×2 +2×3 = 9506.",
+         "why": "Expanding around a round base number turns a hard multiplication into simple round-number arithmetic."}
+      ]
+    },
+    {
+      "id": "division",
+      "name": "Division",
+      "icon": "➗",
+      "tricks": [
+        {"title": "÷5 shortcut", "when": "Dividing by 5", "example": "140 ÷ 5",
+         "method": "÷5 = ×2 ÷10. 140×2=280, then 280÷10=28.",
+         "why": "Dividing by 5 is the same as doubling then dividing by 10 - both very fast mental steps."},
+        {"title": "÷25 shortcut", "when": "Dividing by 25", "example": "300 ÷ 25",
+         "method": "÷25 = ×4 ÷100. 300×4=1200, then 1200÷100=12.",
+         "why": "This turns an awkward division into an easy multiplication followed by shifting the decimal point."},
+        {"title": "Factor division", "when": "Dividing by a number that factors nicely", "example": "144 ÷ 12",
+         "method": "12 = 3×4, so divide by 3 then by 4: 144÷3=48, 48÷4=12.",
+         "why": "Splitting the divisor into smaller factors turns one hard division into two easy ones."},
+        {"title": "Use known multiplication facts", "when": "Any division", "example": "72 ÷ 8",
+         "method": "Ask: 8 × ? = 72. Since 8×9=72, the answer is 9.",
+         "why": "Division is the reverse of multiplication, so a strong grip on times tables makes division instant."}
+      ]
+    },
+    {
+      "id": "percentages",
+      "name": "Percentages",
+      "icon": "💯",
+      "tricks": [
+        {"title": "10% shortcut", "when": "Finding 10% of a number", "example": "10% of 350",
+         "method": "Divide by 10: 35.",
+         "why": "Percent means 'out of 100', and 10 is one tenth of 100, so 10% is just one tenth of the number."},
+        {"title": "5% shortcut", "when": "Finding 5% of a number", "example": "5% of 240",
+         "method": "Find 10% first (24), then halve it: 12.",
+         "why": "5% is exactly half of 10%, so once you know the 10% trick, 5% is one more easy step."},
+        {"title": "1% shortcut", "when": "Finding 1% of a number", "example": "1% of 4500",
+         "method": "Divide by 100: 45.",
+         "why": "1% is literally one out of every hundred, so dividing by 100 gives it directly."},
+        {"title": "Build unusual percentages", "when": "Finding percentages like 15%, 35%, 70%", "example": "15% of 80",
+         "method": "10% of 80 = 8, 5% of 80 = 4. Add them: 15% = 8+4 = 12.",
+         "why": "Almost any percentage can be built by adding and subtracting easy building blocks like 10%, 5%, and 1%."}
+      ]
+    },
+    {
+      "id": "fractions",
+      "name": "Fractions",
+      "icon": "🍕",
+      "tricks": [
+        {"title": "Find the unit fraction first", "when": "Calculating a fraction of a number", "example": "3/4 of 20",
+         "method": "Find 1/4 first: 20÷4=5. Then multiply by 3: 5×3=15.",
+         "why": "Breaking a fraction into 'one part' first, then scaling up, is far easier than trying to do it in one step."},
+        {"title": "Simplify early", "when": "Working with fractions in a calculation", "example": "8/12 + 1/12",
+         "method": "Simplify 8/12 to 2/3 before continuing if possible - smaller numbers are easier to work with.",
+         "why": "Simplifying as early as possible keeps the numbers small and reduces mistakes."},
+        {"title": "Common denominator method", "when": "Adding/subtracting fractions with different denominators", "example": "1/3 + 1/4",
+         "method": "Use 12 as a common denominator: 1/3=4/12, 1/4=3/12. Add: 7/12.",
+         "why": "Fractions can only be added directly when they're counting the same-sized pieces - a common denominator makes that true."},
+        {"title": "Fraction/decimal/percentage conversion", "when": "Switching between forms", "example": "3/4",
+         "method": "3/4 = 0.75 = 75%. Divide the numerator by the denominator to get the decimal, then ×100 for percent.",
+         "why": "These are three ways of writing the exact same value - being fluent in converting between them makes many problems easier to approach."}
+      ]
+    },
+    {
+      "id": "exponents",
+      "name": "Exponents",
+      "icon": "⚡",
+      "tricks": [
+        {"title": "Same-base multiplication", "when": "Multiplying powers with the same base", "example": "3^4 × 3^2",
+         "method": "Add the exponents: 3^(4+2) = 3^6.",
+         "why": "Multiplying powers of the same base just stacks more copies of that base together, which is why the exponents add."},
+        {"title": "Same-base division", "when": "Dividing powers with the same base", "example": "5^7 ÷ 5^3",
+         "method": "Subtract the exponents: 5^(7−3) = 5^4.",
+         "why": "Dividing cancels out matching copies of the base, leaving only the difference in exponents."},
+        {"title": "Power of a power", "when": "Raising a power to another power", "example": "(2^3)^2",
+         "method": "Multiply the exponents: 2^(3×2) = 2^6.",
+         "why": "Raising to a power means repeating the multiplication that many times, which multiplies the exponents together."},
+        {"title": "Zero exponent", "when": "Any non-zero base to the power 0", "example": "7^0",
+         "method": "Always equals 1.",
+         "why": "Following the division rule backwards (a^n ÷ a^n = a^0 = 1) shows why anything divided by itself, expressed as exponents, must equal 1."}
+      ]
+    },
+    {
+      "id": "geometry",
+      "name": "Geometry Memory Aids",
+      "icon": "📐",
+      "tricks": [
+        {"title": "SOH CAH TOA", "when": "Remembering trig ratios (later grades)", "example": "sin, cos, tan",
+         "method": "SOH: sin=Opposite/Hypotenuse. CAH: cos=Adjacent/Hypotenuse. TOA: tan=Opposite/Adjacent.",
+         "why": "This classic mnemonic packs all three ratio definitions into one memorable phrase."},
+        {"title": "Angles on a line vs around a point", "when": "Straight-line geometry problems", "example": "Angles on a line = 180°, around a point = 360°",
+         "method": "A straight line is 'half a turn' (180°), a full point is 'one whole turn' (360°).",
+         "why": "Thinking of angles as fractions of a full turn makes the 180°/360° facts intuitive instead of things to memorise blindly."},
+        {"title": "Z, F, C angle shapes", "when": "Parallel lines cut by a transversal", "example": "Alternate, corresponding, co-interior angles",
+         "method": "Z-shape = alternate angles (equal). F-shape = corresponding angles (equal). C-shape = co-interior angles (sum to 180°).",
+         "why": "Spotting the letter shape in a diagram instantly tells you which angle rule applies."}
+      ]
+    }
+  ]
+}

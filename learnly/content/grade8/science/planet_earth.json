@@ -1,0 +1,44 @@
+{
+  "id": "planet_earth",
+  "name": "Planet Earth and Beyond",
+  "diagram": "water_cycle",
+  "what_is_it": "Planet Earth and Beyond studies the systems that make Earth work — the water cycle, the atmosphere, weather, and Earth's place in the solar system.",
+  "why_it_matters": "These systems explain the weather we experience daily, why we have seasons, where our drinking water comes from, and how climate change affects the planet — knowledge essential for environmental awareness and everyday decision-making.",
+  "key_vocabulary": [
+    "Water cycle — the continuous movement of water between the atmosphere, land, and oceans",
+    "Evaporation — liquid water turning into water vapour (gas), usually due to heat from the sun",
+    "Condensation — water vapour cooling and turning back into liquid water droplets (forming clouds)",
+    "Precipitation — water falling from clouds as rain, snow, sleet or hail",
+    "Atmosphere — the layer of gases surrounding the Earth, held in place by gravity",
+    "Solar system — the Sun and all the objects (planets, moons, asteroids, comets) that orbit it",
+    "Orbit — the curved path an object takes around another object due to gravity",
+    "Rotation — Earth spinning on its own axis, causing day and night (takes 24 hours)",
+    "Revolution — Earth travelling all the way around the Sun (takes about 365.25 days, giving us a year)"
+  ],
+  "core_concept": "The water cycle is powered by the Sun's energy: heat causes evaporation, water vapour rises and cools to condense into clouds, and gravity eventually pulls the water back down as precipitation — a continuous, never-ending loop.",
+  "key_facts": [
+    "The Sun's heat is the driving force behind evaporation and therefore the entire water cycle.",
+    "Earth's rotation on its axis (24 hours) causes day and night.",
+    "Earth's revolution around the Sun (about 365.25 days) causes the yearly cycle of seasons, combined with the tilt of Earth's axis.",
+    "The atmosphere is made mostly of nitrogen (about 78%) and oxygen (about 21%), with small amounts of other gases including carbon dioxide.",
+    "Water on Earth is constantly recycled — the same water molecules have existed on Earth for billions of years, just changing form and location."
+  ],
+  "common_misconceptions": [
+    "Thinking rain is 'new' water — it's part of the same water that has been cycling on Earth for billions of years.",
+    "Believing seasons are caused by Earth being closer to or further from the Sun — they're actually caused by the tilt of Earth's axis.",
+    "Confusing rotation (day/night, 24 hours) with revolution (a full year around the Sun).",
+    "Assuming clouds are made of water vapour — clouds are actually tiny liquid water droplets (or ice crystals) formed by condensation, not gas."
+  ],
+  "quiz_facts": [
+    {"q": "What causes evaporation in the water cycle?", "a": "Heat from the sun"},
+    {"q": "What is it called when water vapour turns back into liquid droplets?", "a": "Condensation"},
+    {"q": "How long does Earth's rotation take?", "a": "24 hours"},
+    {"q": "How long does Earth's revolution around the Sun take?", "a": "About 365.25 days (a year)"},
+    {"q": "What two gases make up most of Earth's atmosphere?", "a": "Nitrogen and oxygen"}
+  ],
+  "quick_test": [
+    "List the four main stages of the water cycle in order.",
+    "Explain the difference between rotation and revolution.",
+    "Why do we have seasons?"
+  ]
+}

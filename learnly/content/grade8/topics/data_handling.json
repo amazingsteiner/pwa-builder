@@ -1,0 +1,66 @@
+{
+  "id": "data_handling",
+  "name": "Data Handling",
+  "what_is_it": "Data handling is the process of collecting, organising, summarising and interpreting information. Grade 8 covers measures of central tendency (mean, median, mode) and spread (range), plus reading and drawing graphs.",
+  "why_it_matters": "Data skills let us make sense of surveys, sports statistics, scientific results, and business figures — and are essential for informed decision-making in nearly every career.",
+  "key_vocabulary": [
+    "Mean — the average: sum of values divided by how many values there are",
+    "Median — the middle value when data is arranged in order",
+    "Mode — the value(s) that occur most frequently",
+    "Range — the difference between the highest and lowest value, showing spread",
+    "Frequency — how many times a value or category occurs in the data"
+  ],
+  "core_concept": "Mean, median and mode all describe the 'centre' of a data set, but each responds differently to unusual/extreme values (outliers) — choosing the right measure depends on the data and the question being asked.",
+  "rules": [
+    "To find the median, ALWAYS order the data first (ascending).",
+    "If there is an even number of data values, the median is the average of the two middle values.",
+    "A data set can have no mode, one mode, or several modes (multi-modal).",
+    "Mean is affected strongly by outliers; median is not."
+  ],
+  "formulae": [
+    "Mean = (sum of all values) ÷ (number of values)",
+    "Range = maximum value − minimum value",
+    "Median (odd n): middle value of ordered data",
+    "Median (even n): average of the two middle ordered values"
+  ],
+  "step_by_step_method": [
+    "STEP 1: Write down all data values.",
+    "STEP 2: For median/range, order the data from smallest to largest.",
+    "STEP 3: For mean, add all values and divide by the count.",
+    "STEP 4: For mode, identify the most frequent value(s).",
+    "STEP 5: For range, subtract the minimum from the maximum.",
+    "STEP 6: Interpret the results in the context of the question."
+  ],
+  "worked_example_1": {
+    "question": "Find the mean, median, mode and range of: 4, 8, 6, 8, 3, 9, 8",
+    "solution": "Ordered: 3, 4, 6, 8, 8, 8, 9\nMean = (4+8+6+8+3+9+8)/7 = 46/7 ≈ 6.57\nMedian = middle value = 8\nMode = 8 (appears 3 times)\nRange = 9 − 3 = 6"
+  },
+  "worked_example_2": {
+    "question": "Find the median of: 12, 15, 9, 20 (even number of values)",
+    "solution": "Ordered: 9, 12, 15, 20\nTwo middle values: 12 and 15\nMedian = (12 + 15) ÷ 2 = 13.5"
+  },
+  "fast_method": "Cross off the smallest and largest values from each end of an ordered list simultaneously to quickly narrow in on the median without recounting the whole list each time.",
+  "why_fast_method_works": "Systematically removing pairs from both ends preserves the middle position, so you reach the median (or middle pair) faster than manually counting positions in a long list.",
+  "common_mistakes": [
+    "Finding the median without ordering the data first.",
+    "Forgetting to average the two middle values when there's an even number of data points.",
+    "Confusing mode (most frequent VALUE) with frequency (the COUNT itself).",
+    "Rounding the mean too early and then using the rounded number in further calculations."
+  ],
+  "memory_trick": "\"Mean = share it out equally. Median = the middle after lining up. Mode = the most popular.\"",
+  "visual_explanation": "Learnly's Data Lab draws a bar graph or dot plot of the data, visually marking the mean (balance point), median (middle position), and mode (tallest bar).",
+  "guided_example": "Test scores: 55, 70, 65, 70, 90, 60\n1) Order: 55, 60, 65, 70, 70, 90\n2) Mean = (55+60+65+70+70+90)/6 = 410/6 ≈ 68.3\n3) Median = (65+70)/2 = 67.5\n4) Mode = 70\n5) Range = 90 − 55 = 35",
+  "practice_questions": [
+    "Find the mean of: 10, 20, 30, 40, 50.",
+    "Find the median of: 7, 2, 9, 4, 5.",
+    "Find the mode of: 3, 3, 5, 7, 5, 5, 9.",
+    "Find the range of: 12, 45, 3, 78, 22."
+  ],
+  "challenge_question": "A class of 5 learners has a mean test score of 70%. A 6th learner joins and the new mean becomes 72%. What mark did the 6th learner get?",
+  "quick_test": [
+    "Mean of 2,4,6? (4)",
+    "Median of 1,3,5,7? (4)",
+    "Mode of 2,2,3,4? (2)"
+  ],
+  "mastery_check": "Mastered when a student can compute all four measures fluently on unordered raw data, explain in words what each measure represents, and choose the most appropriate measure for a given real-world scenario."
+}

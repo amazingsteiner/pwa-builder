@@ -1,0 +1,13 @@
+{
+  "grade": 8,
+  "subject": "Natural Sciences",
+  "country": "South Africa",
+  "curriculum": "CAPS (Senior Phase)",
+  "note": "Structured around the four DBE Natural Sciences strands for Senior Phase. Verify exact wording/pacing against the current official ATP before formal school use.",
+  "topics": [
+    {"id": "matter_materials", "name": "Matter and Materials", "icon": "🧪", "diagram": "states_of_matter"},
+    {"id": "life_living", "name": "Life and Living", "icon": "🌿", "diagram": "food_chain"},
+    {"id": "energy_change", "name": "Energy and Change", "icon": "⚡", "diagram": "simple_circuit"},
+    {"id": "planet_earth", "name": "Planet Earth and Beyond", "icon": "🌍", "diagram": "water_cycle"}
+  ]
+}

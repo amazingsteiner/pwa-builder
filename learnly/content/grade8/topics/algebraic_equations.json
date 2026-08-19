@@ -1,0 +1,61 @@
+{
+  "id": "algebraic_equations",
+  "name": "Algebraic Equations",
+  "what_is_it": "An equation states that two expressions are equal. Grade 8 focuses on solving linear equations — finding the value of the unknown letter that makes the equation true.",
+  "why_it_matters": "Solving equations is how maths answers 'what number satisfies this condition?' — used in finance, science, engineering, and everyday problem solving.",
+  "key_vocabulary": [
+    "Equation — a mathematical statement that two expressions are equal, containing an = sign",
+    "Solution/root — the value of the variable that makes the equation true",
+    "Inverse operation — the operation that undoes another, e.g. subtraction undoes addition",
+    "Balance — the idea that both sides of an equation must stay equal after every step"
+  ],
+  "core_concept": "An equation is like a balanced scale. Whatever operation you perform on one side, you MUST perform on the other side too, to keep it balanced, until the variable stands alone.",
+  "rules": [
+    "Undo addition/subtraction first (move constants), then undo multiplication/division (isolate the variable).",
+    "Whatever you do to one side of the equation, do exactly the same to the other side.",
+    "Always perform inverse operations to 'undo' what's been done to the variable.",
+    "Check your answer by substituting it back into the ORIGINAL equation."
+  ],
+  "formulae": [
+    "General linear equation: ax + b = c  →  x = (c − b) / a"
+  ],
+  "step_by_step_method": [
+    "STEP 1: Simplify each side separately if possible (expand brackets, collect like terms).",
+    "STEP 2: Move all variable terms to one side and constants to the other, using inverse operations.",
+    "STEP 3: Divide both sides by the coefficient of the variable.",
+    "STEP 4: Write the final solution.",
+    "STEP 5: Check by substituting the solution back into the original equation."
+  ],
+  "worked_example_1": {
+    "question": "Solve for x: 3x + 5 = 20",
+    "solution": "3x + 5 = 20\n3x = 20 − 5 = 15   (subtract 5 from both sides)\nx = 15 ÷ 3 = 5   (divide both sides by 3)\nCheck: 3(5) + 5 = 20 ✓"
+  },
+  "worked_example_2": {
+    "question": "Solve for x: 2(x − 3) = 4x + 2",
+    "solution": "Expand: 2x − 6 = 4x + 2\nMove variables: 2x − 4x = 2 + 6\n−2x = 8\nx = 8 ÷ (−2) = −4\nCheck: 2(−4−3) = 2(−7) = −14; 4(−4)+2 = −14 ✓"
+  },
+  "fast_method": "Whenever a term needs to 'cross' the equals sign, flip its sign instead of writing out the full add/subtract step on both sides — this is mentally faster once you trust the balance rule.",
+  "why_fast_method_works": "Moving a term to the other side and changing its sign is exactly equivalent to adding/subtracting it from both sides — the balance rule guarantees this shortcut always works.",
+  "common_mistakes": [
+    "Forgetting to apply an operation to BOTH sides of the equation.",
+    "Sign errors when moving terms across the equals sign.",
+    "Not expanding brackets fully before collecting like terms.",
+    "Dividing only part of one side by the coefficient instead of the whole side."
+  ],
+  "memory_trick": "\"Whatever you do to one side, you MUST do to the other — keep the scale balanced.\"",
+  "visual_explanation": "A balance-scale diagram showing the equation as two pans that must stay level — Learnly can draw the scale with the expression written on each side.",
+  "guided_example": "Solve: 5x − 4 = 2x + 11\n1) Move variables: 5x − 2x = 11 + 4\n2) 3x = 15\n3) x = 5\n4) Check: 5(5)−4=21; 2(5)+11=21 ✓",
+  "practice_questions": [
+    "Solve for x: 4x − 7 = 13",
+    "Solve for x: 2x + 9 = 3x − 1",
+    "Solve for x: 3(x + 2) = 21",
+    "Solve for x: 5x/2 = 15"
+  ],
+  "challenge_question": "Solve for x: 4(2x − 1) − 3x = 2(x + 5) + 3, showing every balancing step.",
+  "quick_test": [
+    "Solve: x + 8 = 15 (x=7)",
+    "Solve: 3x = 21 (x=7)",
+    "Solve: 2x − 3 = 9 (x=6)"
+  ],
+  "mastery_check": "Mastered when a student solves multi-step linear equations (including brackets and variables on both sides) reliably, and always checks the solution in the original equation."
+}

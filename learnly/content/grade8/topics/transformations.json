@@ -1,0 +1,64 @@
+{
+  "id": "transformations",
+  "name": "Transformation Geometry",
+  "what_is_it": "Transformation geometry studies how shapes move on a coordinate plane. Grade 8 focuses on translations (sliding) and reflections (flipping), and reading/plotting coordinates.",
+  "why_it_matters": "Transformations appear in design, animation, engineering, tiling patterns, and are the foundation for similarity and enlargement studied in later grades.",
+  "key_vocabulary": [
+    "Coordinate plane — a grid with a horizontal x-axis and vertical y-axis used to plot points",
+    "Ordered pair (x, y) — describes a point's position: x is horizontal, y is vertical",
+    "Translation — sliding a shape without rotating, resizing, or flipping it",
+    "Reflection — flipping a shape over a line (the mirror line/axis of symmetry)",
+    "Image — the new shape after a transformation; the original is called the object"
+  ],
+  "core_concept": "Every transformation follows a consistent rule applied to EVERY point of the shape. Translations shift every point by the same amount; reflections mirror every point across a fixed line, keeping the same distance from that line.",
+  "rules": [
+    "Translation rule (a, b): add 'a' to every x-coordinate and 'b' to every y-coordinate.",
+    "Reflection over the x-axis: (x, y) → (x, −y).",
+    "Reflection over the y-axis: (x, y) → (−x, y).",
+    "Translations and reflections preserve size and shape — only position/orientation changes."
+  ],
+  "formulae": [
+    "Translation: (x, y) → (x + a, y + b)",
+    "Reflect over x-axis: (x, y) → (x, −y)",
+    "Reflect over y-axis: (x, y) → (−x, y)"
+  ],
+  "step_by_step_method": [
+    "STEP 1: Plot the original shape's vertices on the coordinate plane.",
+    "STEP 2: Identify the transformation type and its rule (translation vector, or reflection line).",
+    "STEP 3: Apply the rule to EACH vertex individually.",
+    "STEP 4: Plot the new (image) points and connect them to draw the transformed shape.",
+    "STEP 5: Check that size and shape are unchanged — only position/orientation should differ."
+  ],
+  "worked_example_1": {
+    "question": "Translate point A(2, 3) by the vector (4, −2).",
+    "solution": "New x = 2 + 4 = 6\nNew y = 3 + (−2) = 1\nA' = (6, 1)"
+  },
+  "worked_example_2": {
+    "question": "Reflect point B(5, 2) over the x-axis, then over the y-axis.",
+    "solution": "Reflect over x-axis: (5, 2) → (5, −2)\nReflect that result over y-axis: (5, −2) → (−5, −2)"
+  },
+  "fast_method": "For a reflection, just flip the SIGN of the coordinate that matches the axis: reflecting over the x-axis flips y's sign; reflecting over the y-axis flips x's sign. The other coordinate never changes.",
+  "why_fast_method_works": "The mirror line acts like a sign-flip because every point moves to the exact opposite side of that axis while staying the same distance away — this is captured entirely by negating one coordinate.",
+  "common_mistakes": [
+    "Flipping the wrong coordinate (x instead of y, or vice versa) during a reflection.",
+    "Applying the translation vector inconsistently across different vertices of the same shape.",
+    "Forgetting that transformations preserve size — an image should always be congruent to the object.",
+    "Mixing up which axis is x (horizontal) and which is y (vertical)."
+  ],
+  "memory_trick": "\"Reflect over the x-axis, the x stays, the y flies (changes sign). Reflect over the y-axis, the y stays, the x flies.\"",
+  "visual_explanation": "Learnly's coordinate-grid canvas plots the object shape, the transformation vector/mirror line, and the resulting image shape in a different colour for clear comparison.",
+  "guided_example": "Translate triangle with vertices (1,1), (3,1), (2,4) by vector (−2, 3).\n1) (1,1) → (−1, 4)\n2) (3,1) → (1, 4)\n3) (2,4) → (0, 7)\nPlot the new triangle using these three image points.",
+  "practice_questions": [
+    "Translate point (0, 0) by vector (5, 5).",
+    "Reflect point (−3, 4) over the x-axis.",
+    "Reflect point (6, −2) over the y-axis.",
+    "Translate point (−1, −1) by vector (3, −4)."
+  ],
+  "challenge_question": "A triangle has vertices (1,2), (4,2), (4,5). Reflect it over the y-axis, then translate the image by vector (2, −1). Give the final coordinates.",
+  "quick_test": [
+    "Translate (2,3) by (1,1)? ((3,4))",
+    "Reflect (2,5) over x-axis? ((2,-5))",
+    "Reflect (2,5) over y-axis? ((-2,5))"
+  ],
+  "mastery_check": "Mastered when a student can apply translation and reflection rules to any set of coordinates accurately, and correctly plot both the object and image on a grid."
+}
