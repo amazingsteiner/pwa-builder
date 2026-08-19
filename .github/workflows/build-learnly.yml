@@ -4,8 +4,12 @@ on:
   workflow_dispatch:
   push:
     paths:
+      - 'learnly/**'
       - 'template/**'
       - '.github/workflows/build-learnly.yml'
+
+permissions:
+  contents: read
 
 jobs:
   build:
@@ -36,21 +40,54 @@ jobs:
         run: |
           sdkmanager "platform-tools" "platforms;android-34" "build-tools;34.0.0"
 
-      - name: Install npm dependencies
-        working-directory: template
-        run: npm install
+      - name: Prepare Learnly project from builder template
+        shell: bash
+        run: |
+          set -e
+          rm -rf build
+          mkdir -p build
+
+          # Copy the fork's original build machinery.
+          cp template/package.json build/package.json
+          cp template/build-app.js build/build-app.js
+          if [ -f template/icon-generator.js ]; then cp template/icon-generator.js build/icon-generator.js; fi
+
+          # Copy the uploaded Learnly PWA into the builder project root.
+          cp -a learnly/. build/
+
+          # Configuration consumed by the fork's build-app.js.
+          cat > build/build-config.json <<'EOF'
+          {
+            "appName": "Learnly",
+            "appId": "com.amazingsteiner.learnly",
+            "appDescription": "Learnly - Learn and Grow",
+            "backgroundColor": "#ffffff",
+            "themeColor": "#4CAF50",
+            "sourceIcon": "source-icon.png",
+            "webDir": "www",
+            "filesToCopy": ["index.html", "manifest.json", "manifest.webmanifest", "sw.js"],
+            "foldersToCopy": ["js", "styles", "icons", "assets", "content", "css", "src"]
+          }
+          EOF
+
+          cd build
+          npm install
 
       - name: Build Learnly APK
-        working-directory: template
+        working-directory: build
         run: npm run build
         env:
           ANDROID_HOME: ${{ env.ANDROID_SDK_ROOT }}
           ANDROID_SDK_ROOT: ${{ env.ANDROID_SDK_ROOT }}
 
+      - name: Show APK
+        shell: bash
+        run: find build/android/app/build/outputs -type f -name '*.apk' -print
+
       - name: Upload Learnly APK
         uses: actions/upload-artifact@v4
         with:
           name: Learnly-APK
-          path: template/android/app/build/outputs/apk/debug/app-debug.apk
+          path: build/android/app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
           retention-days: 30
