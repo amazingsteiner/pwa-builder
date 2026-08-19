@@ -1,21 +1,18 @@
 {
-  "appName": "My PWA App",
-  "appId": "com.example.myapp",
-  "appDescription": "A Progressive Web App built with PWA Builder",
+  "appName": "Learnly",
+  "appId": "com.elites.learnly",
+  "appDescription": "Learnly — Learn and Grow",
   "version": "1.0.0",
   "backgroundColor": "#ffffff",
   "themeColor": "#4CAF50",
-
   "sourceIcon": "source-icon.png",
-
   "android": {
     "minSdkVersion": 22,
-    "targetSdkVersion": 33,
-    "compileSdkVersion": 33,
+    "targetSdkVersion": 34,
+    "compileSdkVersion": 34,
     "allowMixedContent": true,
-    "webContentsDebuggingEnabled": true
+    "webContentsDebuggingEnabled": false
   },
-
   "plugins": {
     "camera": {
       "enabled": false,
@@ -28,19 +25,17 @@
       "sound": "notification_sound.wav"
     }
   },
-
   "webDir": "www",
-
   "filesToCopy": [
     "index.html",
-    "manifest.json",
+    "app.js",
+    "styles.css",
+    "manifest.webmanifest",
     "sw.js"
   ],
-
   "foldersToCopy": [
-    "js",
-    "styles",
-    "icons",
-    "assets"
+    "assets",
+    "content",
+    "icons"
   ]
 }
